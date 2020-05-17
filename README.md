@@ -73,7 +73,7 @@ Used the KMeans Algorithm from sklearn to cluster the cryptocurrencies using the
 
 	•	Created a new DataFrame named “clustered_df,” that includes the following columns: 
 	Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class,
-	while maintaining the index of the crypto_df DataFrames as is shown below:
+	while maintaining the index of the crypto_df DataFrame as is shown below:
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Clustering_K-means/3_clusterd_df.png)
 
 ### Visualizing Results
@@ -91,13 +91,21 @@ Image to include data upon hover:
 	with columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/3_hover_table.png)
 
-	•	Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Included the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point. Image
+	•	Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Included the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/4_Scatterplot.png)
 
-I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather also built on BlockChain.  For example, one outlier I found, BitTorrent. I did some research to identify why it is an outlier.  According to Wikipedia:  Image
+Image to include data upon hover:
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/4_Scatterplot.png)
+
+### Recommendation to Improve Analysis Results
+
+I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather also built on BlockChain.  For example, one outlier I found, BitTorrent. I did some research to identify why it is an outlier. 
+![alt text](
+
+According to Wikipedia:  
 
 BitTorrent (abbreviated to BT) is a communication protocol for peer-to-peer file sharing (P2P) which is used to distribute data and electronic files over the Internet.
-BitTorrent is one of the most common protocols for transferring large files, such as digital video files containing TV shows or video clips or digital audio files containing songs. Peer-to-peer networks have been estimated to collectively account for approximately 43% to 70% of all Internet traffic (depending on location) as of February 2009.[1] In February 2013, BitTorrent was responsible for 3.35% of all worldwide bandwidth, more than half of the 6% of total bandwidth dedicated to file sharing.[2] 
-Source: https://en.wikipedia.org/wiki/BitTorrent. 
+BitTorrent is one of the most common protocols for transferring large files, such as digital video files containing TV shows or video clips or digital audio files containing songs. Peer-to-peer networks have been estimated to collectively account for approximately 43% to 70% of all Internet traffic (depending on location) as of February 2009.[1] In February 2013, BitTorrent was responsible for 3.35% of all worldwide bandwidth, more than half of the 6% of total bandwidth dedicated to file sharing.[2] Source: https://en.wikipedia.org/wiki/BitTorrent. 
 
 Resource:
 crypto_data.csv
