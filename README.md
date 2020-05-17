@@ -32,7 +32,8 @@ Continued with the following data preprocessing tasks:
 	•	Removed the IsTrading column.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/2_DataFrame_with_IsTrading_Column%20Removed.png)
 
-	•	Removed all cryptocurrencies with at least one null value. Proof all nulls removed:
+	•	Removed all cryptocurrencies with at least one null value. Checked dataframe to ensure
+	the number of rows were reduced as an indication that all rows with nulls were removed:
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/3_Proof_Null_Values_Removed.png)
 
 	•	Removed all cryptocurrencies without coins mined. 
@@ -52,9 +53,10 @@ Continued with the following data preprocessing tasks:
   
   
 ### Reducing Data Dimensions Using PCA
-Used the PCA algorithm from sklearn
- to reduce the dimensions of the X DataFrame down to three principal components. 
-Created a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. Use the crypto_df.index as the index for this new DataFrame Image
+Used the PCA algorithm from sklearn to reduce the dimensions of the X DataFrame down to three principal components. 
+Created a DataFrame named “pcs_df” that includes the following columns: 
+PC 1, PC 2, and PC 3. Used the crypto_df.index as the index for this new DataFrame.
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/PCA_Dimensions/PCA_Data_Transformed_to_DataFrame.png)
 
 
 ### Clustering Cryptocurrencies Using K-means
