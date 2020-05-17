@@ -11,9 +11,16 @@ Reduce data dimensions using PCA algorithms from sklearn.
 Predicte clusters using cryptocurrencies data using the K-means algorithm form sklearn.
 Create some plots and data tables to present your results.
 
+
 ### Data Preprocessing
 
-Started by loading the data in a Pandas DataFrame named “crypto_df.” Continued with the following data preprocessing tasks:
+Started by loading the data in a Pandas DataFrame named “crypto_df.” 
+
+#### Inspected the data.
+Looked at first five rows of dataframe.
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Inspect_Data/1_DataFrame_from_csv.png)
+
+Continued with the following data preprocessing tasks:
 	•	Removed all cryptocurrencies that aren’t trading. 
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/1_Coins_Not_Trading.png)
 
@@ -25,13 +32,15 @@ Started by loading the data in a Pandas DataFrame named “crypto_df.” Continu
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/3_Proof_Null_Values_Removed.png)
 
 	•	Removed all cryptocurrencies without coins mined. 
-	•	Stored the names of all cryptocurrencies on a DataFramed named coins_name, and use the crypto_df.index as the index for this new DataFrame. 
+	•	Stored the names of all cryptocurrencies on a DataFramed named coins_name, 
+	and used the crypto_df.index as the index for this new DataFrame. 
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/4_New_DataFrame_coins_name_df.png)
 
 	•	Removed the CoinName column.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/5_DataFrame_with_CoinsName_Column_Removed.png)
 
-	•	Used get_dummies to create dummies variables for all of the text features, and stored the resulting data on a DataFrame named X. Snippet of output after creating dummies.
+	•	Used get_dummies to create dummies variables for all of the text features, 
+	and stored the resulting data on a DataFrame named X. Snippet of output after creating dummies.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/6_Snippet_Dummies.png)
 
 	•	Used the StandardScaler from sklearn  to standardize all of the data from the X DataFrame.
