@@ -21,7 +21,9 @@ Started by loading the data in a Pandas DataFrame named “crypto_df.” Continu
 	•	Removed the IsTrading column.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/2_DataFrame_with_IsTrading_Column%20Removed.png)
 
-	•	Removed all cryptocurrencies with at least one null value. Image
+	•	Removed all cryptocurrencies with at least one null value. Proof all nulls removed:
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/3_Proof_Null_Values_Removed.png)
+
 	•	Removed all cryptocurrencies without coins mined. 
 	•	Stored the names of all cryptocurrencies on a DataFramed named coins_name, and use the crypto_df.index as the index for this new DataFrame. Image
 	•	Removed the CoinName column. Image
