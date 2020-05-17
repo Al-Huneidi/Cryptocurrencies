@@ -14,7 +14,9 @@ Create some plots and data tables to present your results.
 ### Data Preprocessing
 
 Started by loading the data in a Pandas DataFrame named “crypto_df.” Continued with the following data preprocessing tasks:
-	•	Removed all cryptocurrencies that aren’t trading. Image
+	•	Removed all cryptocurrencies that aren’t trading. 
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/1_Coins_Not_Trading.png)
+
 	•	Removed all cryptocurrencies that don’t have an algorithm defined.
 	•	Removed the IsTrading column. Image
 	•	Removed all cryptocurrencies with at least one null value. Image
