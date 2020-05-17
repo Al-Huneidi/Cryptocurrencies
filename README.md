@@ -99,8 +99,11 @@ Image to include data upon hover:
 
 ### Recommendation to Improve Analysis Results
 
-I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather also built on BlockChain.  For example, one outlier I found, BitTorrent. I did some research to identify why it is an outlier. 
-![alt text](
+I was curious about an outlier on the scatter plot, BitTorrent. I did some research to identify why it is an outlier. BitTorrent is a communication protocol, not a cryptocurrency.  For additional information on BitTorrent, see below.
+![alt text](6_BitTorrent_Outlier.png)
+
+I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather just built on BlockChain.  
+
 
 According to Wikipedia:  
 
@@ -108,4 +111,5 @@ BitTorrent (abbreviated to BT) is a communication protocol for peer-to-peer
 BitTorrent is one of the most common protocols for transferring large files, such as digital video files containing TV shows or video clips or digital audio files containing songs. Peer-to-peer networks have been estimated to collectively account for approximately 43% to 70% of all Internet traffic (depending on location) as of February 2009.[1] In February 2013, BitTorrent was responsible for 3.35% of all worldwide bandwidth, more than half of the 6% of total bandwidth dedicated to file sharing.[2] Source: https://en.wikipedia.org/wiki/BitTorrent. 
 
 Resource:
+
 crypto_data.csv
