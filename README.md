@@ -28,7 +28,9 @@ Started by loading the data in a Pandas DataFrame named “crypto_df.” Continu
 	•	Stored the names of all cryptocurrencies on a DataFramed named coins_name, and use the crypto_df.index as the index for this new DataFrame. 
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/4_New_DataFrame_coins_name_df.png)
 
-	•	Removed the CoinName column. Image
+	•	Removed the CoinName column.
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/5_DataFrame_with_CoinsName_Column_Removed.png)
+
 	•	Created dummies variables for all of the text features, and stored the resulting data on a DataFrame named X. Image
 	•	Used the StandardScaler from sklearn  to standardize all of the data from the X DataFrame. Image
   
