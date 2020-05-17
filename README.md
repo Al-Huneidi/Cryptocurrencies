@@ -71,7 +71,10 @@ Used the KMeans Algorithm from sklearn to cluster the cryptocurrencies using the
 	for the cryptocurrencies’ data. Used the pcs_df to run the K-means algorithm.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Clustering_K-means/2_PCS_DataFrame_With_Predicitve_Class.png)
 
-	•	Created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class, while maintaining the index of the crypto_df DataFrames as is shown below: Image
+	•	Created a new DataFrame named “clustered_df,” that includes the following columns: 
+	Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class,
+	while maintaining the index of the crypto_df DataFrames as is shown below:
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Clustering_K-means/3_clusterd_df.png)
 
 ### Visualizing Results
 Data visualizations of the final results.
