@@ -78,14 +78,19 @@ Used the KMeans Algorithm from sklearn to cluster the cryptocurrencies using the
 
 ### Visualizing Results
 Data visualizations of the final results.
-	•	Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point. 
+	•	Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame.
+	Included the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this
+	additional info on each data point. 
 Top-down image of 3D plot:
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/1_3D.png)
 
 Image to include data upon hover:
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/2_3D_with_Hover_label.png)
 
-	•	Used hvplot.table to create a data table with all the current tradable cryptocurrencies with columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.Image
+	•	Used hvplot.table to create a data table with all the current tradable cryptocurrencies
+	with columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/3_hover_table.png)
+
 	•	Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Included the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point. Image
 
 I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather also built on BlockChain.  For example, one outlier I found, BitTorrent. I did some research to identify why it is an outlier.  According to Wikipedia:  Image
