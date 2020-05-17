@@ -56,21 +56,25 @@ Continued with the following data preprocessing tasks:
 Used the PCA algorithm from sklearn to reduce the dimensions of the X DataFrame down to three principal components. 
 Created a DataFrame named “pcs_df” that includes the following columns: 
 PC 1, PC 2, and PC 3. Used the crypto_df.index as the index for this new DataFrame.
+
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/PCA_Dimensions/PCA_Data_Transformed_to_DataFrame.png)
 
 
 ### Clustering Cryptocurrencies Using K-means
-Used the KMeans Algorithm from sklearn
- to cluster the cryptocurrencies using the PCA data.
-	1.	Created an elbow curve to find the best value for K, and use the pcs_df DataFrame to find how many clusters to use in the KMeans algorithm. Image
-	2.	With the defined best value for K, ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Used the pcs_df to run the K-means algorithm. Image
-	3.	Created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class, while maintaining the index of the crypto_df DataFrames as is shown below: Image
+Used the KMeans Algorithm from sklearn to cluster the cryptocurrencies using the PCA data.
+
+	•	Created an elbow curve to find the best value for K, and used
+	the pcs_df DataFrame to find how many clusters to use in the KMeans algorithm. 
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Clustering_K-means/1_Elbow_Curve.png)
+
+	•	With the defined best value for K, ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Used the pcs_df to run the K-means algorithm. Image
+	•	Created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class, while maintaining the index of the crypto_df DataFrames as is shown below: Image
 
 ### Visualizing Results
 Data visualizations of the final results.
-	1.	Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point. 2 Images: 1-top down, 2 with hover data
-	2.	Used hvplot.table to create a data table with all the current tradable cryptocurrencies with columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.Image
-	3.	Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Included the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point. Image
+	•	Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point. 2 Images: 1-top down, 2 with hover data
+	•	Used hvplot.table to create a data table with all the current tradable cryptocurrencies with columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.Image
+	•	Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Included the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point. Image
 
 I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather also built on BlockChain.  For example, one outlier I found, BitTorrent. I did some research to identify why it is an outlier.  According to Wikipedia:  Image
 
