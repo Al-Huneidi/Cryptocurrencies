@@ -100,6 +100,7 @@ Image to include data upon hover:
 ### Recommendation to Improve Analysis Results
 
 I was curious about an outlier on the scatter plot, BitTorrent. I did some research to identify why it is an outlier. BitTorrent is a communication protocol, not a cryptocurrency. 
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/6_BitTorrent_Outlier.png)
 
 
 I recommend the dataset be cleaned further to eliminate entries that are not true cryptocurrencies but rather just built on BlockChain.  
