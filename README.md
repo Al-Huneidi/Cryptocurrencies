@@ -95,7 +95,7 @@ Image to include data upon hover:
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/4_Scatterplot.png)
 
 Image to include data upon hover:
-![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/4_Scatterplot.png)
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/5_Scatter_hover.png)
 
 ### Recommendation to Improve Analysis Results
 
