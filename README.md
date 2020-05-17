@@ -83,7 +83,8 @@ Top-down image of 3D plot:
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/1_3D.png)
 
 Image to include data upon hover:
-![alt text](
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Visualizations/2_3D_with_Hover_label.png)
+
 	•	Used hvplot.table to create a data table with all the current tradable cryptocurrencies with columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.Image
 	•	Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Included the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point. Image
 
