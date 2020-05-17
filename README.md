@@ -20,7 +20,11 @@ Started by loading the data in a Pandas DataFrame named “crypto_df.”
 Looked at first five rows of dataframe.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Inspect_Data/1_DataFrame_from_csv.png)
 
+Got the datatypes for each column.
+![alt text](
+
 Continued with the following data preprocessing tasks:
+
 	•	Removed all cryptocurrencies that aren’t trading. 
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/1_Coins_Not_Trading.png)
 
