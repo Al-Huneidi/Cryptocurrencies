@@ -34,7 +34,8 @@ Started by loading the data in a Pandas DataFrame named “crypto_df.” Continu
 	•	Used get_dummies to create dummies variables for all of the text features, and stored the resulting data on a DataFrame named X. Snippet of output after creating dummies.
 ![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/6_Snippet_Dummies.png)
 
-	•	Used the StandardScaler from sklearn  to standardize all of the data from the X DataFrame. Image
+	•	Used the StandardScaler from sklearn  to standardize all of the data from the X DataFrame.
+![alt text](https://github.com/Al-Huneidi/Cryptocurrencies/blob/master/Screenshots/Preprocessing/7_Standardized_data.png)
   
   
 ### Reducing Data Dimensions Using PCA
